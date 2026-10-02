@@ -1,0 +1,32 @@
+This project uses the third-party dependencies listed below.
+The GitHub source repository supplies requirements.txt rather than vendored dependencies.
+Packaged distributions include unmodified dependencies in .deps, with their sources
+and license files retained in the packages and *.dist-info folders.
+For pip installations, the corresponding license files are in the installed packages.
+
+gallery-dl 1.32.14
+  Project: https://github.com/mikf/gallery-dl
+  License: GNU General Public License, version 2
+  Source shipped as .deps/gallery_dl/*.py (including subdirectories)
+  License: .deps/gallery_dl-1.32.14.dist-info/licenses/LICENSE
+
+Pillow 12.3.0
+  Project: https://python-pillow.github.io/
+  License: HPND / MIT-CMU and bundled library notices
+  Source distribution: https://pypi.org/project/Pillow/12.3.0/#files
+  License and bundled-library notices: .deps/pillow-12.3.0.dist-info/licenses/
+
+requests 2.34.2
+  Project: https://requests.readthedocs.io/
+  License: Apache-2.0
+  License: .deps/requests-2.34.2.dist-info/licenses/LICENSE
+
+Other request dependencies:
+  certifi 2026.7.22 (MPL-2.0)
+  charset-normalizer 3.5.2 (MIT)
+  idna 3.20 (BSD-3-Clause)
+  urllib3 2.8.0 (MIT)
+  Full license texts: the respective .deps/*.dist-info/licenses directories.
+
+The bundled Windows binary extensions target CPython 3.12, 64-bit.
+For another runtime, install requirements.txt with that runtime.

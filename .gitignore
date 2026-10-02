@@ -1,0 +1,11 @@
+__pycache__/
+downloads/
+qa_output/
+logs/
+*.part
+.deps/
+*.zip
+cookies.txt
+*cookies*.txt
+settings.json
+settings.json.part
